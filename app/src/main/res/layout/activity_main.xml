@@ -11,9 +11,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Currency"
-        android:textSize="35sp"
-        android:padding="5sp"
+        android:textSize="30sp"
+        android:padding="3sp"
         android:textColor="@color/colorAccent"
+        android:background="#FF9800"
+        android:gravity="center_horizontal"
         />
     <TextView
         android:id="@+id/txtCate1"
@@ -21,16 +23,16 @@
         android:layout_height="wrap_content"
         android:text="USD"
         android:textSize="25sp"
-        android:padding="5sp"
+        android:padding="3sp"
         android:layout_below="@+id/txtCurrency"
         android:layout_alignParentLeft="true"
         />
-    <EditText
-        android:id="@+id/edtNumber1"
+    <TextView
+        android:id="@+id/txtNumber1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="25sp"
-        android:padding="5sp"
+        android:padding="3sp"
         android:hint="0"
         android:layout_below="@id/txtCurrency"
         android:layout_toRightOf="@id/txtCate1"
@@ -50,7 +52,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="VND"
-        android:padding="5sp"
+        android:padding="3sp"
         android:textSize="25sp"
         android:layout_below="@id/spn1"
         />
@@ -60,7 +62,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="25sp"
-        android:padding="5sp"
+        android:padding="3sp"
         android:text="0"
         android:layout_below="@id/spn1"
         android:layout_toRightOf="@id/txtCate2"
@@ -96,21 +98,14 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:layout_weight="1">
-            <Button
-                android:id="@+id/btnConvert"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="convert"
-                android:textSize="35dp"
-                />
+
             <Button
                 android:id="@+id/btnCE"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="CE"
                 android:layout_weight="1"
-                android:textSize="35dp"
+                android:textSize="30dp"
                 />
             <Button
                 android:id="@+id/btnDelete"
@@ -118,7 +113,7 @@
                 android:layout_height="match_parent"
                 android:text="Del"
                 android:layout_weight="1"
-                android:textSize="35dp"/>
+                android:textSize="30dp"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -127,7 +122,7 @@
             android:layout_weight="1">
             <Button
                 android:id="@+id/btn7"
-                android:textSize="35dp"
+                android:textSize="30dp"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="7"
@@ -139,7 +134,7 @@
                 android:layout_height="match_parent"
                 android:text="8"
                 android:layout_weight="1"
-                android:textSize="35dp"
+                android:textSize="30dp"
                 />
             <Button
                 android:id="@+id/btn9"
@@ -147,7 +142,7 @@
                 android:layout_height="match_parent"
                 android:text="9"
                 android:layout_weight="1"
-                android:textSize="35dp"
+                android:textSize="30dp"
                 />
         </LinearLayout>
         <LinearLayout
@@ -161,7 +156,7 @@
                 android:layout_height="match_parent"
                 android:text="4"
                 android:layout_weight="1"
-                android:textSize="35dp"
+                android:textSize="30dp"
                 />
             <Button
                 android:id="@+id/btn5"
@@ -169,14 +164,14 @@
                 android:layout_height="match_parent"
                 android:text="5"
                 android:layout_weight="1"
-                android:textSize="35dp"/>
+                android:textSize="30dp"/>
             <Button
                 android:id="@+id/btn6"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="6"
                 android:layout_weight="1"
-                android:textSize="35dp"/>
+                android:textSize="30dp"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -189,7 +184,7 @@
                 android:layout_height="match_parent"
                 android:text="1"
                 android:layout_weight="1"
-                android:textSize="35dp"
+                android:textSize="30dp"
                 />
             <Button
                 android:id="@+id/btn2"
@@ -197,14 +192,14 @@
                 android:layout_height="match_parent"
                 android:text="2"
                 android:layout_weight="1"
-                android:textSize="35dp"/>
+                android:textSize="30dp"/>
             <Button
                 android:id="@+id/btn3"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="3"
                 android:layout_weight="1"
-                android:textSize="35dp"/>
+                android:textSize="30dp"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -217,14 +212,14 @@
                 android:layout_height="match_parent"
                 android:text="0"
                 android:layout_weight="2"
-                android:textSize="35dp"/>
+                android:textSize="30dp"/>
             <Button
                 android:id="@+id/btnDot"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="."
                 android:layout_weight="1"
-                android:textSize="35dp"/>
+                android:textSize="30dp"/>
         </LinearLayout>
     </LinearLayout>
 
