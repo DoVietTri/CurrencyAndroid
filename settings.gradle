@@ -1,0 +1,2 @@
+rootProject.name='CurrencyAndroid'
+include ':app'
